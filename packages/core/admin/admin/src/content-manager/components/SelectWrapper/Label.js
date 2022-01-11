@@ -26,7 +26,7 @@ const Label = ({ intlLabel, id, labelAction, link, name, numberOfEntries, isSing
           fontWeight="bold"
           as="label"
         >
-          {label}
+          Select {label}
           {!isSingle && <>&nbsp;({numberOfEntries})</>}
         </Typography>
         {labelAction && <LabelAction paddingLeft={1}>{labelAction}</LabelAction>}

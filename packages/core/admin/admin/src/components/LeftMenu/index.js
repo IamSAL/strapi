@@ -82,7 +82,7 @@ const LeftMenu = ({ generalSectionLinks, pluginsSectionLinks }) => {
 
   const menuTitle = formatMessage({
     id: 'app.components.LeftMenu.navbrand.title',
-    defaultMessage: 'Strapi Dashboard',
+    defaultMessage: 'Alienide Interactive',
   });
 
   return (
@@ -90,7 +90,7 @@ const LeftMenu = ({ generalSectionLinks, pluginsSectionLinks }) => {
       <NavBrand
         workplace={formatMessage({
           id: 'app.components.LeftMenu.navbrand.workplace',
-          defaultMessage: 'Workplace',
+          defaultMessage: 'Website CMS',
         })}
         title={menuTitle}
         icon={<img src={menuLogo} alt={menuTitle} />}
